@@ -30,3 +30,5 @@ slowMath.add(6,2)
     // I am the error callback for either function
 console.log('something went wrong');
 console.log(err); });
+
+// when adding 1 and 1 as the first set, the number comes out negative at step 4 and returns a error at step 5, thus ending the chain prematurly.
